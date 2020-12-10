@@ -1,0 +1,5 @@
+language: cpp
+compiler: gcc
+script:
+  - g++ exp1.cpp -std=c++17 -o travis_gcc_cpp17
+  - ./travis_gcc_cpp17
